@@ -21,11 +21,7 @@ public class GraphicsProjectOne extends JFrame
 
 		setSize(WIDTH,HEIGHT);
 
-		getContentPane().add(new Robot());
-               
-		
-		//add other classes to run them 
-		//BigHouse, Robot, or ShapePanel 
+		getContentPane().add(new ShapePanel());
 
 		setVisible(true);
 
