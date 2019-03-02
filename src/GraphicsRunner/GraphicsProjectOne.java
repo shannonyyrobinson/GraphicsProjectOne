@@ -21,7 +21,7 @@ public class GraphicsProjectOne extends JFrame
 
 		setSize(WIDTH,HEIGHT);
 
-		getContentPane().add(new BigHouse());
+		getContentPane().add(new Robot());
                
 		
 		//add other classes to run them 

@@ -39,36 +39,40 @@ class Robot extends Canvas
    {
       window.setColor(Color.YELLOW);
 
-      window.fillOval(300, 100, 200, 100);
+      window.fillOval(300, 50, 200, 125);
       
       window.setColor(Color.BLACK);
       
-      window.fillOval(350, 110, 20, 20);
+      window.fillOval(450, 100, 20, 20);
       
-      window.fillOval(250, 110, 20, 20);
+      window.fillOval(350, 100, 20, 20);
       
-      window.fillArc(300, 100, 100, 50, 30, 30);
+      window.fillOval(400, 125, 10, 10);
+      
+      window.setColor(Color.RED);
+      
+      window.drawArc(355, 60, 100, 100, 220, 100);
 
    }
 
    public void upperBody( Graphics window )
    {
        window.setColor(Color.GRAY);
-       window.fillRect(300, 100, 200, 200);
+       window.fillRect(300, 175, 200, 150);
     
        window.setColor(Color.BLACK);
-       window.drawLine(300, 100, 350, 150);
-       window.drawLine(300, 100, 250, 50);
+       window.drawLine(200, 150, 300, 200);
+       window.drawLine(500, 200, 600, 150);
    }
 
    public void lowerBody( Graphics window )
    {
        window.setColor(Color.GRAY);
-       window.fillRect(300, 100, 200, 200);
+       window.fillRect(300, 350, 200, 100);
     
        window.setColor(Color.BLACK);
-       window.drawLine(300, 100, 350, 150);
-       window.drawLine(300, 100, 250, 50);
+       window.drawLine(200, 500, 300, 425);
+       window.drawLine(500, 425, 600, 500);
 
    }
 }
