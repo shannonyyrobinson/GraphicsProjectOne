@@ -1,4 +1,4 @@
-package Graphics;
+package GraphicsRunner;
 
 //(c) A+ Computer Science
 //www.apluscompsci.com

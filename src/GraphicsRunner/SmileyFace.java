@@ -1,4 +1,4 @@
-package Graphics;
+package GraphicsRunner;
 
 //(c) A+ Computer Science
 //www.apluscompsci.com
@@ -33,9 +33,16 @@ public class SmileyFace extends Canvas
 
       window.setColor(Color.YELLOW);
       window.fillOval( 210, 100, 400, 400 );
-
-		//add more code here
-
+      
+      window.setColor(Color.BLUE);
+      window.fillOval(100, 200, 100, 100);
+      window.fillOval(150, 200, 100, 100);
+      
+      window.setColor(Color.BLACK);
+      window.fillOval( 210, 100, 50, 50);
+      
+      window.setColor(Color.RED);
+      window.fillArc(100, 157, 200, 100, 77, 77);
 
    }
 }
