@@ -21,7 +21,7 @@ public class GraphicsProjectOne extends JFrame
 
 		setSize(WIDTH,HEIGHT);
 
-		getContentPane().add(new SmileyFace());
+		getContentPane().add(new BigHouse());
 
 		setVisible(true);
 
