@@ -1,21 +1,39 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package GraphicsRunner;
 
-/**
- *
- * @author shann
- */
-public class GraphicsProjectOne {
+//(c) A+ Computer Science
+//www.apluscompsci.com
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+//Name -
+//Date -
+//Class -
+//Lab  -
+
+import javax.swing.JFrame;
+
+public class GraphicsProjectOne extends JFrame
+{
+	private static final int WIDTH = 800;
+	private static final int HEIGHT = 600;
+
+	public GraphicsProjectOne()
+	{
+		super("Graphics Runner");
+
+		setSize(WIDTH,HEIGHT);
+
+		getContentPane().add(new SmileyFace());
+               
+		
+		//add other classes to run them 
+		//BigHouse, Robot, or ShapePanel 
+
+		setVisible(true);
+
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+	public static void main( String args[] )
+	{
+		GraphicsProjectOne run = new GraphicsProjectOne();
+	}
 }
