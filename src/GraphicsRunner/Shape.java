@@ -33,7 +33,11 @@ public class Shape
    public void draw(Graphics window)
    {
       window.setColor(color);
-      window.fillRect(xPos, yPos, width, height);
+      window.fillOval(xPos+50, yPos, width, height);
+      window.fillOval(xPos, yPos+50, width, height);
+      window.fillOval(xPos-50, yPos, width, height);
+      window.fillOval(xPos, yPos-50, width, height);
+      window.fillOval(xPos, yPos, width, height);
 
    }
 
